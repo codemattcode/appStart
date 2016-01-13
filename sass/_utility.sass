@@ -1,0 +1,62 @@
+//font
+=font($rem)
+  font-size: $rem
+=line($heightValue)
+  line-height: $heightValue + px
+  line-height: (1.5 * $heightValue) + rem
+// spacing
+=pads($padding-top, $padding-right, $padding-bottom, $padding-left)
+  padding-top: $padding-top +px
+  padding-right: $padding-right +px
+  padding-bottom: $padding-bottom +px
+  padding-left: $padding-left +px
+=pad($padding)
+  padding: $padding +px
+=margins($margin-top, $margin-right, $margin-bottom, $margin-left)
+  margin-top: $margin-top + px
+  margin-right: $margin-right + px
+  margin-bottom: $margin-bottom + px
+  margin-left: $margin-left + px
+=margin($margin)
+  margin: $margin +px
+// alignment
+=center
+  text-align: center
+=left
+  text-align: left
+=right
+  text-align: right
+=float
+  float: left
+=floater
+  float: right
+=nofloat
+  float: none
+// decoration
+=border($px)
+  border: $px solid black
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  -ms-border-radius: $radius
+  border-radius: $radius
+=borders($border-top, $border-right, $border-bottom, $border-left, $border-radius, $border-style, $border-color)
+  border-top: $border-top +px
+  border-right: $border-right +px
+  border-bottom: $border-bottom +px
+  border-left: $border-left +px
+  border-radius: $border-radius +px
+  border-style: $border-style
+  border-color: $border-color
+=outline($width, $style, $color, $offset)
+  outline-width: $width +px
+  outline-style: $style
+  outline-color: $color
+  outline-offset: $offset +px
+=shadow
+  box-shadow: 5px 5px 0px 1px rgba(0,0,0,0.5)
+
+//special
+=highlight
+  background: $highlight
+  color: $notBlack

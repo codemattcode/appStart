@@ -1,0 +1,33 @@
+{
+  "name": "App",
+  "version": "1.0.0",
+  "description": "SPA",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-ruby-sass": "^1.3.0",
+    "gulp-uglify": "^1.3.0",
+    "lodash": "^4.0.0",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "redux": "^3.0.5"
+  },
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "browser-sync": "^2.8.2",
+    "del": "^1.2.1",
+    "gulp-babel": "^5.2.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-postcss": "^6.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^1.4.0",
+    "lost": "^6.5.0",
+    "rucksack-css": "^0.8.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max Equation",
+  "license": "ISC"
+}

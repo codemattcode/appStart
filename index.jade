@@ -1,0 +1,38 @@
+doctype
+html(lang="en")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    //- TITLE
+    title 
+      include jade/title.jade
+    //- SEO
+    meta(name='description', content='')
+    //- FAVICON
+    link(rel="shortcut icon", href="img/favicon.ico")
+    //- BOOTSTRAP  
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+    //- CUSTOM CSS
+    link(rel='stylesheet', href='css/style.css')
+    
+  body
+    div
+      include jade/layout.jade
+    
+  
+    
+//- JQUERY
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+//- REACT
+script(src='https://cdnjs.cloudflare.com/ajax/libs/react/0.14.6/react.min.js')
+//- REACT-DOM
+script(src='https://cdnjs.cloudflare.com/ajax/libs/react/0.14.6/react-dom.min.js')
+//- REDUX
+script(src='https://cdnjs.cloudflare.com/ajax/libs/redux/3.0.5/redux.min.js')
+//- LODASH
+script(src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.0.0/lodash.min.js')
+//- BOOTSTRAP JS
+script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js')
+//- CUSTOM JS
+script(type="text/javascript" src='js-min/app.min.js')

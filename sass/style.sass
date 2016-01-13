@@ -1,0 +1,67 @@
+@import colour
+@import flex
+@import font
+@import form
+// @import my-grid
+@import reset
+@import utility
+@import breakpoints
+// imports ^
+
+// !my-grid > defaults
+// .grid
+//   margin: 0 auto
+//   max-width: 1200px
+// +mobile
+//   .whole, .half, .third, .thirds, .quarter, .quarters, .fifth, .fourFifths, .large, .small
+//     float: none
+//     width: auto
+// my-grid BREAKPOINT RULES ^
+\:root
+  font-size: 16px
+
+  +mobile
+    font-size: 16px
+
+// SETS REM BASE ^
+// SOME INCLUDES DONT REQUIRE EM/REM/PX SUFFIX !important
+html, body
+  -webkit-font-smoothing: antialiased
+  -webkit-text-rendering: optimizeLegibility
+  user-select: none
+
+  background: #d1d9e0
+  // background: -moz-linear-gradient(top, #d4e4ef 0%, #86aecc 100%)
+  // background: -webkit-linear-gradient(top, #d4e4ef 0%,#86aecc 100%)
+  // background: linear-gradient(to bottom, #d4e4ef 0%,#86aecc 100%)
+  // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 )
+
+  // +roboto(1.5, 100, .8, $white)
+  font-family: "roboto", sans-serif
+  font-size: responsive 16px 26px
+  //rucksack ^
+  font-weight: $regular
+  +line(1.2)
+  color: black
+  // +pad(50)
+
+  +mobile
+    font-family: "roboto", sans-serif
+    font-size: responsive 20px 26px
+    font-weight: $regular
+    // +pad(20)
+    // padding-top: 50px
+
+.container, .container-fluid
+  margin: 3rem 3rem
+  max-width: 1200px
+  +mobile
+    margin: 2rem 2rem
+// get busy down here...
+
+
+// .box
+//   text-align: center
+//   margin-top: 5rem
+//   +mobile
+//     margin-top: 1rem
