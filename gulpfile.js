@@ -4,7 +4,6 @@ var gulp          = require('gulp'),
     babel         = require('gulp-babel'),
     postcss       = require('gulp-postcss'),
     autoprefixer  = require('autoprefixer-core'),
-    lost          = require('lost'),
     rucksack      = require('rucksack-css'),
     sass          = require('gulp-ruby-sass'),
     uglify        = require('gulp-uglify'),
@@ -18,7 +17,6 @@ var gulp          = require('gulp'),
 //sass to css conversion and compression
 gulp.task('sass', function() {
   var processors = [
-      lost,
       rucksack,
       autoprefixer({browsers: ['last 3 versions']}),
   ];
